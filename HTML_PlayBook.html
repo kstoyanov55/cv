@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML_PlayBook</title>
+</head>
+
+<body>
+  <h1>HTML_PlayBook</h1>
+
+<!-- Contents -->
+<p id="Top">Top</p>
+
+  <p><a href="#Boilerplate">Boilerplate</a> <br>
+     <a href="#Body">Body</a> <br>
+     <a href="#Lists">Lists</a><br>
+     <a href="#HTML Image Element">HTML Image Element</a><br>
+     <a href="#HTML Links and Anchor Tags">HTML Links and Anchor Tags</a><br>
+     <a href="#HTML Tables">HTML Tables</a><br>
+     <a href="#Using HTML Tables for Layout">Using HTML Tables for Layout</a><br>
+     <a href="#HTML Forms">HTML Forms</a>
+     <a href="#How to send htmp form to e-mail client">How to send htmp form to e-mail client</a>
+
+   </p>
+
+
+<hr><p><a href="#Top">(Top)</a>
+<b>The Anatomy of an HTML Tag</b></p>
+<br>
+<br>
+<font size="+1" color="#6600cc"><b>&lt;h1&gt;</b></font><font
+size="+1"><b>Hello World!</b><font color="#6600cc"><b>&lt;/h1&gt;&nbsp;
+
+</b></font></font><font color="#009900"><i>&lt;=Heading; Start
+tag, Content, End tag ..</i></font><br>
+<font size="+1" color="#6600cc"><b>&lt;br&gt;</b></font>&nbsp;
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;<font color="#009900"><i> &lt;= Brake line ; Self closing tag</i></font>
+..<br>
+<b>&lt;hr&gt;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<font color="#009900"><i>&lt;= Horizontal Rule .. Drows </i></font><font
+color="#009900"><i><font color="#009900"><i>Horizontal line ..</i></font></i></font><br>
+&lt;<b>hr size="3" color="red" noshade</b>&gt;&nbsp; <font
+color="#009900"><i>&lt;= HTML elements that have Attributes for
+modifications to default element</i></font> ..<br>
+&lt;<b>center</b>&gt;<br>
+........&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;<font color="#009900"><i> &lt;= moves the text to the
+center</i></font> ..<br>
+&lt;<b>/center</b>&gt;<br>
+<font size="+1" color="#6600cc"><b>&lt;!--</b></font><font size="+1">&nbsp;<font
+color="#999999"> comment&nbsp;</font> &nbsp;&nbsp; <font
+color="#6600cc"><b>--&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</b></font></font><i><font color="#009900">&lt;=Comment ..</font></i>
+<br><br>
+
+<!-- Boilerplate -->
+<hr>
+<p id="Boilerplate"><a href="#Top">(Top)</a>
+ <strong>Boilerplate</strong></p>
+ <br>
+ &lt;!DOCTYPE html&gt;<br>
+ &lt;<b><font color="#3333ff">html</font> </b>lang="en"
+ dir="ltr"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <font color="#009900">&lt;=1. Write <font color="#3333ff"><b>"html"+Enter
+ (tab</b></font>) ....<i>Boilerpate is loaded</i></font> ..<br>
+ <br>
+ &lt;<b>head</b>&gt;<br>
+ &nbsp; &lt;meta
+ charset="utf-8"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &nbsp;&nbsp; <font color="#009900"><i>&lt;= Mandatory by default </i></font>..<br>
+ &nbsp; &lt;<font color="#666666"><b>title</b></font>&gt;<font
+ color="#3333ff">Krasimir's Personal Site</font>&lt;/title&gt;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <i>&lt;= 2.Write the</i><u> t<font color="#3333ff">itle of the page</font></u>
+ (title in browser's tab ) <br>
+ &lt;/head&gt;<br>
+ <br>
+ &nbsp; &lt;body&gt;<br>
+ <br>
+ &nbsp; &lt;/body&gt;<br>
+ &lt;/html&gt;<br>
+ <br>
+ <br>
+
+
+<!-- Body -->
+ <hr>
+ <p id="Body"><a href="#Top">(Top)</a>
+ <strong>Body</strong></p>
+ <br>
+ <br>
+ &lt;body&gt;<br>
+ &nbsp; <b>&lt;h1&gt;</b><font color="#3333ff">Krasimir Stoyanov</font><b>&lt;/h1&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+ <font color="#009900"><i>&lt;= 3. h1,Аdd a </i><font
+ color="#3333ff">Level 1 heading in the Body</font></font> ..<br>
+ &nbsp; <b>&lt;p&gt;</b><font color="#cc33cc"><b>&lt;em&gt;</b></font><font
+ color="#3366ff">Retired </font><font color="#999900"><b>&lt;strong&gt;</b>IBM-er<b>&lt;/strong&gt;</b></font><font
+ color="#cc33cc"><b>&lt;/em&gt;</b></font><b>&lt;/p&gt;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &lt;=5.<font color="#33cc00"><i>Nested tags in paragtaph &lt;p&gt;</i></font>
+ : <font color="#cc33cc">em ( italic)</font> ; <font
+ color="#666600">strong (bold)</font> ..<br>
+ &nbsp; <b>&lt;p&gt;</b><font color="#3366ff">I am retired IBM-er
+ and now learning Web Development</font><b>&lt;/p&gt;</b>&nbsp;&nbsp;
+
+ <font color="#009900"><i>&lt;=4. Simple <u>Paragtaph </u>- <u>text
+ in body</u></i></font> ..<br>
+ &nbsp; &lt;hr&gt;<br>
+ &nbsp; &lt;<b>h3&gt;Books and Teaching
+ &lt;h3&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ </b><font color="#009900"><i>&lt;= 6.New heading (h3) ..</i></font><br>
+ &lt;/body&gt;<br>
+ <br>
+ <br>
+ <hr>
+
+
+ <!-- Lists -->
+ <p id="Lists"><a href="#Top">(Top)</a>
+ <strong>Lists</strong></p>
+ <br>
+ &lt;body&gt;<br>
+ &nbsp; <b>&lt;h1&gt;Krasimir Stoyanov
+ &lt;/h1&gt;&nbsp;&nbsp;&nbsp;&nbsp; </b><font color="#009900"><i>....heading
+ for me</i></font><br>
+ &nbsp; &lt;p&gt;&lt;em&gt;Retired
+ &lt;strong&gt;IBM-er&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;<br>
+ &nbsp; &lt;p&gt;I am retired IBM-er and now learning Web
+ Development&lt;/p&gt;<br>
+ &nbsp; &lt;hr&gt;<br>
+ &nbsp; &lt;h3&gt;Books and Teaching&lt;/h3&gt;<br>
+ &nbsp;<font color="#3333ff"> <b>&lt;ul&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><font
+ color="#009900"> &lt;=7. &lt;ul&gt; Unordered list&nbsp; (ul
+ +Enter)</font><b><br>
+ </b><b>&nbsp;&nbsp;&nbsp; &lt;li&gt;</b>Mainframes<b><font
+ color="#000000">&lt;/li&gt;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ </b><font color="#009900"><i>&lt;= 8.&lt;li&gt; list ..</i></font><b><br>
+ </b><b>&nbsp;&nbsp;&nbsp; <font color="#000000"><font
+ color="#3333ff">&lt;li</font>&gt;</font></b>Storage and SAN<font
+ color="#000000"><b>&lt;/li&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &nbsp;</b><font color="#009900"> .............</font></font><b><br>
+ </b><b>&nbsp;&nbsp;&nbsp; <font color="#000000"><font
+ color="#3333ff">&lt;li</font>&gt;</font></b>Web Development<font
+ color="#000000"><b>&lt;/li&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &nbsp;</b> </font></font><font color="#3333ff"><font
+ color="#000000"><font color="#3333ff"><font color="#000000"><font
+ color="#009900"> .............</font></font></font></font><b><br>
+ </b><b>&nbsp; <font color="#000000">&lt;/ul&gt;</font></b></font><br>
+ &lt;/body&gt;<br>
+ <br>
+ &nbsp; <b>&lt;h3&gt;My Hobbies&lt;/h3&gt;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;
+
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font
+ color="#009900"><i>&lt;=Subtitle heading for my hobbies ..</i></font><br>
+ &nbsp; <font color="#3333ff"><b>&lt;ol&gt;</b>&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <font color="#009900"><i>&lt;=9. &lt;ol&gt; ordered list tag ... put
+ 1,2,3 .. in front of the text</i></font> ...<br>
+ &nbsp;&nbsp;&nbsp; <font color="#3333ff">&lt;li&gt;</font>Jogging&lt;/li&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <font color="#009900"><i>&lt;=10. &lt;li&gt; ordered list text ...</i></font><br>
+ &nbsp;&nbsp;&nbsp; <font color="#3333ff">&lt;li&gt;</font>Drillig
+ in the
+ garden&lt;/li&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <font color="#3333ff"><font color="#000000"><font color="#009900">
+ .............</font></font></font><br>
+ &nbsp;&nbsp;&nbsp; <font color="#3333ff">&lt;li&gt;</font>Web
+ development&lt;/li&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &nbsp;&nbsp; &nbsp;&nbsp; <font color="#3333ff"><font
+ color="#000000"><font color="#009900"> .............</font></font></font><br>
+ &nbsp; &lt;/ol&gt;<br>
+ <br>
+ <br>
+ <hr>
+
+ <!-- HTML Image Element -->
+ <p id="HTML Image Element"><a href="#Top">(Top)</a>
+ <strong>HTML Image Element</strong></p>
+ <br>
+ &lt;body&gt;<br>
+ &nbsp; <font color="#6600cc">&lt;<font color="#3333ff"><b>img </b></font><font
+ color="#999900"><b>src</b>=</font>"<b>..\Images\</b>200223_Krasimir_Stoyanov_circle-cropped.png"
+
+ <font color="#cc33cc"> <b>alt</b></font>="Krasimir profile
+ picture" <font color="#009900"><b>width</b></font>="80" <font
+ color="#009900"><b>height</b></font>="80"&gt;&nbsp;&nbsp;</font>
+ <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;= <font
+ color="#009900"><i>11.</i></font> <font color="#009900"><i>&lt;img&gt;</i></font>
+ <font color="#009900"><i>..Insert&nbsp; </i><i>Image tag</i><i> at
+ top of the body above my heading ...<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &lt;=12 . &lt;src&gt; Attribute - for image location .. Note: In
+ win ..\ (for one level up directory )<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &lt;= 13.&lt;alt&gt; attribute .. for Search Engines (it is not
+ visible )<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ &lt;=14 . &lt;width&gt;,&lt;height&gt; attributes for picture
+ sizing ..<br>
+ </i></font> &nbsp; &lt;h1&gt;Krasimir Stoyanov &lt;/h1<br>
+ &nbsp; ..........................................<br>
+ <br>
+ <br>
+<hr>
+
+<!-- <b>HTML Links and Anchor Tags </b><b><br> -->
+<p id="HTML Links and Anchor Tags"><a href="#Top">(Top)</a>
+ <strong>HTML Links and Anchor Tags</strong></p>
+</b><br>
+&lt;h1&gt;Krasimir Stoyanov &lt;/h1&gt;<br>
+&nbsp; &lt;p&gt;&lt;em&gt;Retired employee of
+&lt;strong&gt;<u><b><font color="#ff0000">&lt;a</font>
+href="https://www.ibm.com/bg-en"&gt;<font
+color="#6600cc">IBM Bulgaria</font><font
+color="#ff0000">&lt;/a&gt;</font></b></u>&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&nbsp;
+<font color="#009900"><i>&lt;=Nested hyperlink in
+Paragraph</i></font> ..<br>
+<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;li&gt;Mainframes&lt;/li&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;li&gt;&lt;<b>a href</b>=<font
+color="#6600cc">"https://developer.mozilla.org/en-US"</font>&gt;<font
+color="#993399">Web Development</font><b>&lt;/a&gt;</b>&lt;/li&gt;&nbsp;
+<font color="#009900"><i>&lt;= Nested Hyperlink in
+ul/li </i></font>..<br>
+<br>
+&lt;<b>strong</b>&gt;<font color="#3333ff">&lt;a
+href="HTML_PlayBook.html"&gt;HTML
+PlayBook&lt;/a&gt;</font>&lt;<b>/strong</b>&gt;&nbsp;&nbsp;
+
+
+<font color="#009900"><i>&lt;=Create link to local
+html document</i></font> ..<br>
+<br>
+<font color="#ff0000"><b>&lt;p&gt;</b></font>&lt;<b>a
+href="https://www.w3schools.com/"&gt;w3schools&lt;/a</b>&gt;
+(https://www.w3schools.com/ - html refference
+site)&lt;/p&gt;&nbsp; <font color="#009900"><i>&lt;=
+simple Hyperlink nested in Paragraph</i></font>
+..<br>
+<br>
+
+
+
+<!-- Linking to an element on the same page -->
+
+ <u><em><b>Linking to an element on the same page</b></em></u>
+<br><br>
+
+1)html:5 right way <br>
+&lt;p&gt;&lt;<b>a href=</b>"<font color="#ff0000"><b>#</b></font><b>Boilerplate</b>"&gt;<font
+color="#6600cc">Boilerplate</font>&lt;/a&gt;&lt;/p&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; <font color="#009900"><i>&lt;=
+At the beggining of body (in contents)</i></font>
+..!<font size="+2" color="#ff0000"><b>#</b></font><font
+color="#009900"><i> is most important </i></font>..<br>
+&nbsp;..<br>
+&lt;p <font color="#990000"><b>id="Boilerplate</b></font>"&gt;<font
+color="#6600cc">Boilerplate</font>&lt;/p&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp; <font color="#009900"><i>&lt;=Ancor id
+of "Boilerplate"</i></font> ..<br>
+&lt;p <b>id="Boilerplate"&gt;</b>&lt;strong&gt;<font
+color="#6600cc">Boilerplate</font>&lt;/strong&gt;&lt;/p&gt;
+&nbsp; &lt;=The same but the text is in Bold<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <font
+color="#009900"><i>Note: id is CSS global selector
+and could be insight &lt;p&gt;,&lt;h&gt;</i></font>
+...<br>
+<br>
+2)html:4 old way<br>
+&lt;a<font color="#990000"> <b>name="Body</b></font>"&gt;<font
+color="#6600cc">Body</font>&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#009900">&lt;= This is just a an anchor
+outside of paragraph, heading etc</font> .. <br>
+<br>
+3)Many anchors in one paragraph&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;&nbsp; <font color="#009900"><i>&lt;=
+Otherwise there are high space between
+paragraphs</i></font> ...<br>
+<b>&lt;p&gt;</b>&lt;<b>a href</b>="<b>#Boilerplate</b>"&gt;<font
+color="#6600cc">Boilerplate</font>&lt;/a&gt;
+&lt;br /&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>a href</b>="<b>#Body</b>"&gt;<font
+color="#6600cc">Body</font>&lt;/a&gt;<b>&lt;/p&gt;</b><br>
+<br>
+4)Id selector ,text in bold with Top in
+front&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#009900"><i>&lt;= Practical Template </i></font>...<br>
+&lt;hr&gt;<br>
+&lt;p id="Boilerplate"&gt;&lt;a
+href="#Top"&gt;(Top)&lt;/a&gt;<br>
+<br><br>
+<hr>
+
+<!-- HTML Tables -->
+<p id="HTML Tables"><a href="#Top">(Top)</a>
+ <strong>HTML Tables</strong></p>
+ This is the structure of the Table<br>
+<br>
+<font color="#3333ff"><b><font size="-1">&lt;h3&gt;Work
+
+Experience&lt;/h3&gt;<br>
+&lt;table&gt;<br>
+&nbsp; &lt;thead&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;th&gt;Dates&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;th&gt;Work&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+&nbsp; &lt;/thead&gt;<br>
+&nbsp; <br>
+&nbsp; &lt;tbody&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;td&gt;2005-2010&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;HE
+Storage Implementation&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;td&gt;2005&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;HE
+Storage Implementation&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+&nbsp; &lt;/tbody&gt;<br>
+&nbsp; <br>
+&nbsp; &lt;tfoot&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp; &lt;/tfoot&gt;<br>
+&nbsp; <br>
+&lt;/table&gt;<br>
+&lt;hr&gt;</font></b></font><br>
+<br>
+<hr>
+
+<!-- Using HTML Tables for Layout -->
+<p id="Using HTML Tables for Layout"><a href="#Top">(Top)</a>
+ <strong>Using HTML Tables for Layout</strong></p
+  <br>
+  <td valign="top" bgcolor="#ffcc99">Using HTML Tables
+ for Layout<br>
+ <br>
+ &nbsp; &lt;<b>table cellspacing="20"</b>&gt;<br>
+ &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#999999">
+ </font><font color="#009900"><i>&lt;!-- Image (My
+ picture)--&gt;</i></font><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;td&gt;</b>&lt;img
+ src="..\Images\200223_Krasimir_Stoyanov_circle-cropped.png"
+ alt="Krasimir profile picture" width="80"
+ height="80"&gt;<b>&lt;/td&gt;</b><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font
+ color="#009900"><i>&lt;!-- My descriptopn --&gt;</i></font><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;td&gt;</b>&lt;h1&gt;Krasimir
+ Stoyanov &lt;/h1&gt;<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &lt;p&gt;&lt;em&gt;Retired employee of
+ &lt;strong&gt;&lt;a
+ href="https://www.ibm.com/bg-en"&gt;IBM
+ Bulgaria&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &lt;p&gt;I am retired IBM-er and now learning Web
+ Development&lt;/p&gt;<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;/td&gt;</b><br>
+ &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+ &nbsp; &lt;/table<br>
+ </tr>
+ <br />
+
+ <!-- HTML Forms -->
+ <hr>
+<p id="HTML Forms"><a href="#Top">(Top)</a><strong>HTML Forms</strong></p
+
+&lt;<font color="#3333ff"><b>form </b></font>class=""
+action="index.html" method="post"&gt;&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; <font color="#009900"><i>&lt;=</i></font><font
+color="#009900"><i> 1) Add &lt;</i><i><b>form</b></i><i>&gt;, keep
+HTML5 suggestion</i></font> ..<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#3333ff"><b>label</b></font>&gt;Your
+
+name&lt;/label&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#009900"><i>&lt;= 2)add&nbsp; our first "</i><i><b>label</b></i><i>"</i></font>&nbsp;
+.. &nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#3333ff"><b>input </b></font>type="<font
+color="#cc33cc"><b>text</b></font>" name=""
+value=""&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;= <font color="#009900"><i>3)Enter</i></font> &lt;<font
+color="#3333ff"><b>input</b></font>&gt; <font color="#009900"><i>with
+type="<font color="#cc33cc">text</font>"</i></font> ..<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="<b><font
+color="#cc33cc">submit</font></b>"
+name=""&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#009900"><i>&lt;=4)Add "</i><font color="#cc33cc"><i><b>Submit</b></i></font><i>"
+button</i></font> ..<br>
+&nbsp;&nbsp; ----Other input types ----------------------<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;</b>input type<b>="<font
+color="#cc33cc">time</font>" </b>name<b>=""&gt;</b><b><br>
+</b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b> &lt;input type<b>="<font color="#cc33cc">search</font>" </b>name<b>=""&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>&lt;input type<b><b>="<font
+color="#cc33cc">color</font>"</b></b> name="" value=""<b><b>&gt;</b><font
+size="-1"><b><br>
+</b></font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input
+type="<font color="#cc33cc"><b>checkbox</b></font>" name=""
+value=""&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<font color="#993399"><font
+color="#000000">inpu</font>t </font>type="<b><font
+color="#cc33cc">password</font></b>" name="" value=""&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="<font color="#cc33cc"><b>date</b></font>"
+name="" &gt;&lt;br&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="<font color="#cc33cc"><b>radio</b></font>"
+name="" id=""&gt;&lt;br&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="<font color="#cc33cc"><b>range</b></font>"
+name="" id=""&gt;<br>
+&nbsp; &lt;/form<br>
+<br>
+<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><br>
+
+
+<!-- How to send htmp form to e-mail client -->
+<hr>
+<p id="How to send htmp form to e-mail client"><a href="#Top">(Top)</a><strong>How to send htmp form to e-mail client</strong></p
+
+  1)Prpare the staring form code<br>
+<br>
+<font size="-1">&lt;form class="" action="index.html"
+method="post"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>label</b>&gt;<font
+color="#3366ff">Your name</font>&lt;/label&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>input </b>type="<font
+color="#3366ff">text</font>" name="" value=""&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;label&gt;</b><font
+color="#3366ff">Your email</font>&lt;/label&gt;<b><br>
+</b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input </b>type="<font
+color="#3366ff">email</font>" name="" value=<b>""&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="<font
+color="#3366ff"><b>submit</b></font>" name=""&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/form&gt;</font><br>
+<br>
+2)Add Message lable and Message texarea<br>
+<br>
+<font size="-1">&lt;form class="" action="index.html"
+method="post"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;label&gt;Your
+name&lt;/label&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="text" name=""
+value=""&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;label&gt;Your
+email&lt;/label&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="email" name=""
+value=""&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;label&gt;Your
+Message&lt;/label&gt;</b></font><font size="-1"><b><font
+size="-1"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b><font color="#009900"><i>&lt;=Add label ..</i></font></font></b><b><br>
+</b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;textarea name="name"
+rows="10" cols="30"&gt;&lt;/textarea&gt;</b></font><font
+size="-1"><b><font size="-1"><font color="#009900"><i> &lt;=Add
+textarea ....html5 suggestion autocompleted..set </i></font></font></b></font><font
+size="-1"><b><font size="-1"><font color="#009900"><i><font
+size="-1"><b>" rows="10" cols="30"</b></font></i></font></font></b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="submit" name=""&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/form&gt;</font><br>
+<br>
+3)Sending the form to email client<br>
+3.1)Change "<font color="#ff0000"><b>action</b></font>="<u>index.html</u>"
+to a "<font color="#3333ff"><b>action="mailto:info</b></font>"&nbsp;
+"<br>
+Tunderbird (mail client) knows my from address:
+krasi.stoyanov@hotmail.com<br>
+But in To address we see : <font color="#ff0000">info&lt;&gt;</font><br>
+<font color="#009900"><i>Note: Actually we need mailto to our
+website</i><i><br>
+</i><i>mailto:mailto:you@yourwebsite.com</i></font><br>
+.<br>
+At tis stage i am using<br>
+&lt;form class="" <b>action</b>="<font color="#3366ff">mailto:krasi.stoyanov@hotmail.com</font>"
+method="post"&gt;&nbsp; <font color="#009900"><i>&lt;=remove
+class=""</i></font> ..<br>
+<br>
+3.2)Format the text in the form as text/plain<br>
+&lt;form action="mailto:krasi.stoyanov@hotmail.com" method="post" <b>enctype="text/plain"</b>&gt;<br>
+<br>
+3.3)Fill up name fields (used by email client)<br>
+<br>
+<font size="-1">&lt;form <b>action</b>="<font color="#ff0000"><b>mailto</b></font>:<font
+color="#3333ff">krasi.stoyanov@hotmail.com</font>" method="post"
+<font color="#ff0000"><b>enctype="text/plain</b></font>"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>label</b>&gt;<font
+color="#3366ff">Your name</font>&lt;/label&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>input </b>type="text" <font
+color="#cc33cc"><b>name</b></font>="<font color="#3366ff">yourName</font>"
+value=""&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>label</b>&gt;<font
+color="#3366ff">Your email</font>&lt;/label&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>input </b>type="email" <font
+color="#cc33cc"><b>name</b></font>="<font color="#3366ff">yourEmail</font>"
+value=""&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>label</b>&gt;<font
+color="#3366ff">Your Message</font>&lt;/label&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<b>textarea </b><font
+color="#cc33cc"><b>name</b></font>="<font color="#3366ff">yourMessage</font>"
+rows="10" cols="30"&gt;&lt;/textarea&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="submit" name=""&gt;<br>
+&lt;/from&gt;</font><br>
+.<br>
+<font color="#009900"><i>Now the for will be sent to email client in
+the right way</i></font> ..
+<br>
+<hr />
+
+</body>
+
+
+</html>
